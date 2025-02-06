@@ -1,43 +1,20 @@
-#Wanderlust
+# Wanderlust
 
+Wanderlust is a travel-centric web application designed to provide users with an interactive experience for exploring travel destinations.
 
-#Prerequisites
-Node.js (version 18 recommended)
-MongoDB
-Nodemon (installed globally)
+## Prerequisites
 
-#Installation Steps
-1.Clone the Wanderlust repository from GitHub:
+Before you begin, ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (Version 18 recommended)
+- [MongoDB](https://www.mongodb.com/)
+- [Nodemon](https://www.npmjs.com/package/nodemon) (installed globally)
+
+## Installation Steps
+
+Follow these steps to set up and run the project on your local machine:
+
+### 1. Clone the Repository
+```sh
 git clone https://github.com/gawandeabhishek/Wanderlust-Major-Project.git
-
-2.Set up the database:
-
-Create a .env file in the root directory of the project.
-
-Add the following line to the .env file:
-ATLASDB_URL=mongodb://127.0.0.1:27017/wanderlust
-
-3.Set up Cloudinary:
-Go to Cloudinary and sign up for a free account.
-
-Once logged in, obtain your Cloudinary CLOUD_NAME, CLOUD_API_KEY, and CLOUD_API_SECRET.
-
-Add these values to the .env file:
-CLOUD_NAME=your_cloud_name
-CLOUD_API_KEY=your_api_key
-CLOUD_API_SECRET=your_api_secret
-
-4.Set the secret for your Cloudinary storage:
-Add a SECRET key to your .env file and set it to a secure value:
-SECRET=your_cloudinary_secret
-
-5.Install project dependencies using npm:
-npm install
-
-6.Run the application using Nodemon:
-nodemon app.js
-
-7.Access the project:
-
-Once the server is running, you can access the project at http://localhost:8080.
-      
+cd Wanderlust-Major-Project
